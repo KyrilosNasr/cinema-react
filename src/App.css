@@ -1,0 +1,30 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+}
+
+.movie-container  h2 {
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+
+}
+.header{
+    width: 100%;
+    margin: 4em auto 0 auto;
+}

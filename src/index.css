@@ -1,0 +1,6 @@
+body {
+    background:#eee url('./assets/movie-background.jpg') 70% ;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}

@@ -1,0 +1,61 @@
+.formField {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formField input {
+    border-radius: 10px;
+    height: 30px;
+    border: 0;
+    min-width: 85%;
+    height: 35px;
+    font-size: 19px;
+    padding: 0 0 0 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.formField input:focus {
+    outline: none;
+    border: 0;
+    font-size: 19px;
+    /* padding-left: 20px; */
+}
+
+.formField input::placeholder {
+    font-size: 18px;
+}
+
+.icon {
+    position: absolute;
+    right: 13%;
+    margin: auto;
+    color: gray;
+    top: 11px;
+    cursor: pointer
+}
+
+.formField button{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    display: block;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    height: 37px;
+}
+
+@media (width <= 992px) {
+    .icon {
+        right: 21%;
+       
+    }
+}
